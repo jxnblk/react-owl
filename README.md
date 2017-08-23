@@ -3,7 +3,7 @@
 
 React layout component based on the [lobotomized owl selector][owl]
 and built with [styled-components][sc]
-(* + *)
+`* + *`
 
 ```sh
 npm i react-owl
