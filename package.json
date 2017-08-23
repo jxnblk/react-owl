@@ -4,6 +4,7 @@
   "description": "React layout component built with the lobotomized owl selector",
   "main": "dist/index.js",
   "scripts": {
+    "start": "relab docs/Demo.js -op 8000",
     "prepublish": "babel src -d dist",
     "test": "nyc ava"
   },
@@ -25,6 +26,7 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-test-renderer": "^15.6.1",
+    "relab": "^1.0.0-20",
     "webpack": "^3.5.5",
     "webpack-dev-server": "^2.7.1"
   },
