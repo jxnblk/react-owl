@@ -1,7 +1,7 @@
 
 # react-owl
 
-React layout component based on the [lobotomized owl selector][owl]
+🦉 React layout component based on the [lobotomized owl selector][owl]
 and built with [styled-components][sc]
 `* + *`
 
