@@ -61,7 +61,7 @@ const FlexOwl = styled(Owl)`
 `
 
 const Nav = props => (
-  <FlexOwl>
+  <FlexOwl direction='right'>
     <Link />
     <Link />
     <Link />
