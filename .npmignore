@@ -1,0 +1,6 @@
+src
+docs
+.nyc_output
+coverage
+webpack.config.js
+test.js*

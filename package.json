@@ -1,0 +1,37 @@
+{
+  "name": "react-lobotomized-owl",
+  "version": "1.0.0",
+  "description": "React layout component built with the lobotomized owl selector",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "babel src -d dist",
+    "test": "nyc ava"
+  },
+  "keywords": [],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "styled-components": "^2.1.2"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "nyc": "^11.1.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.6.1",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  }
+}
