@@ -1,7 +1,7 @@
 {
-  "name": "react-lobotomized-owl",
+  "name": "react-owl",
   "version": "1.0.0",
-  "description": "React layout component built with the lobotomized owl selector",
+  "description": "React layout component based on the lobotomized owl selector and built with styled-components",
   "main": "dist/index.js",
   "scripts": {
     "start": "relab docs/Demo.js -op 8000",

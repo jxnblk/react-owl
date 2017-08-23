@@ -11,7 +11,7 @@ module.exports = {
 
   resolve: {
     alias: {
-      'react-lobotomized-owl': path.join(__dirname, './src')
+      'react-owl': path.join(__dirname, './src')
     }
   },
 

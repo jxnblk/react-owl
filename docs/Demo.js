@@ -28,4 +28,3 @@ export default () => (
     </Owl>
   </Root>
 )
-
